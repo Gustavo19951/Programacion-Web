@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Taller Parte 1</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/Index_Formulario.css" rel="stylesheet" type="text/css" />
+        <link href="css/Index_Galeria.css" rel="stylesheet" type="text/css" />
+        <link href="css/Index_Menu.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body> 
+
+        <!-- menu principal -->
+        <ul>
+            <li><a class="active" href="#Formulario">Formulario</a></li>
+            <li><a href="#Galeria">Galeria</a></li>
+            <li><a href="#Opcion3">Opcion3</a></li>
+            <li><a href="#Opcion4">Opcion4</a></li>
+        </ul>
+
+        <!-- Formulario 1 -->
+        <div class="container">  
+            <form id="Formulario" method="post">
+                <h3>Comentarios</h3>
+                <h4>Ingresa tus Datos y dejame un Cometario</h4>
+                <fieldset>
+                    <input placeholder="Tu Nombre" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Correo" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Telefono" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Edad" type="tel" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Escribe un mensaje" tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="Enviando">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- Galeria -->
+        <div id="Galeria">
+            <div class="gallery">
+                <a target="_blank" href="img/Imagen1.jpg">
+                    <img src="img/Imagen1.jpg" alt="Cinque Terre" width="300" height="200">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img/Imagen2.jpg">
+                    <img src="img/Imagen2.jpg" alt="Forest" width="300" height="200">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img/Imagen3.jpg">
+                    <img src="img/Imagen3.jpg" alt="Northern Lights" width="300" height="200">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img/Imagen4.jpg">
+                    <img src="img/Imagen4.jpg" alt="Mountains" width="300" height="200">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
